@@ -1,0 +1,47 @@
+window:
+  padding:
+    x: 5
+    y: 5
+  # decorations: none
+  opacity: 1.0
+
+scrolling:
+  history: 2500
+  multiplier: 3
+
+font:
+  normal:
+    family: JetBrains Mono Nerd Font
+
+  size: 10.0
+
+  offset:
+    x: 0
+    y: 0
+
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#c6d0f5'
+
+  normal:
+    black: '#000000'
+    red: '#e78284'
+    green: '#a6d189'
+    yellow: '#e5c890'
+    blue: '#8caaee'
+    magenta: '#ca9ee6'
+    cyan: '#99d1db'
+    white: '#c6d0f5'
+
+  bright:
+    black: '#000000'
+    red: '#e78284'
+    green: '#a6d189'
+    yellow: '#e5c890'
+    blue: '#8caaee'
+    magenta: '#ca9ee6'
+    cyan: '#99d1db'
+    white: '#c6d0f5'
+
+

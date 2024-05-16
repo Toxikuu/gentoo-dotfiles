@@ -1,0 +1,84 @@
+palette = "catppuccin_mocha"
+
+format = """
+$username$hostname$directory[](#8caaee)$character
+"""
+
+add_newline = false 
+
+[cmd_duration]
+disabled = false
+min_time = 0
+show_milliseconds = true
+format = "[ $duration]($style)"
+style = "bold yellow"
+
+[fill]
+symbol = ' '
+
+[username]
+show_always = true
+style_user = "bold bg:blue fg:black"
+style_root = "bold bg:red fg:black"
+format = '[ $user@]($style)'
+disabled = false
+
+[hostname]
+disabled = false
+style = "bold bg:blue fg:black"
+trim_at = '.'
+ssh_only = false
+format = "[$hostname ]($style)"
+
+[character]
+success_symbol = "[](bold blue)"
+error_symbol = "[ !](bold red)"
+vimcmd_symbol = "[ \\$](bold lavender)"
+
+[python]
+format = 'via [$symbol$version](bold green)'
+symbol = ' '
+pyenv_version_name = true
+
+[directory]
+truncation_length = 12
+style = "bold bg:blue fg:black"
+format = "[$path ]($style)"
+read_only = ' !!'
+read_only_style = 'bold red'
+
+[time]
+disabled = false
+time_format = "%T "
+style = "bold text"
+format = '[$time]($style)'
+
+[palettes.catppuccin_mocha]
+black = "#000000"
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#e78284"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#8caaee"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#000000"
+
